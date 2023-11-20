@@ -1,0 +1,46 @@
+body{
+    background-color: cyan;
+}
+
+.heading-wrapper{
+    margin: 0 auto;
+    width: 100%;
+    padding-block: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading{
+    font-weight: 900;
+    color: black;
+}
+
+.sudoku-main-wrapper{
+    margin: 0 auto;
+    padding: 10px;
+    width: 420px;
+    height: 420px;
+    background-color: yellow;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4px;
+}
+
+.sudoku-wrapper{
+    max-width: 200px;
+    border: 2px solid darkgoldenrod;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.sudoku-cell{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
